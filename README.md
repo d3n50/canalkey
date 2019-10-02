@@ -8,7 +8,7 @@ Keylogger linux - 键盘记录器 linux
 ##################### ESPAÑOL
 # No me hago responsable por el uso de esta herramienta.
 
-Este keylogger usa la herramienta <showkey>, se ejecuta en la máquina víctima y comienza a
+Este keylogger usa la herramienta "showkey", se ejecuta en la máquina víctima y comienza a
 enviar peticiones con el comando curl hacia nuestro servidor.
 En la url de las peticiones añado la información obtenida del keylogger codificada en base64.
 El archivo output.sh decodificará la información enviada por las peticiones a texto claro.
