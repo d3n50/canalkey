@@ -15,8 +15,8 @@ El archivo output.sh decodificará la información enviada por las peticiones a 
 Para modificar el estado del keylogger, añadir al archivo <state> uno de los siguientes contenidos <active/inactive/kill>
 
 	active: El keylogger enviará cada cierto tiempo información a cerca de lo que se escribe en la máquina víctima.
-	inactive: El keylogger no recogerá ningun dato, simplemente estará verificando el contenido del archivo <state>
-  alojado en nuestro servidor.
+	inactive: El keylogger no recogerá ningun dato, simplemente estará verificando el contenido del archivo
+	<state> alojado en nuestro servidor.
 	kill: El archivo se eliminará de la maquina victima y se detendrá su ejecución.
 
 El archivo <delkeylog.sh> añadirá el estado de "kill" al archivo <state>, despues de 30 segundos eliminará el
