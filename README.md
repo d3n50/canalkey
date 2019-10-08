@@ -6,8 +6,7 @@ Keylogger linux - 键盘记录器 linux
 #Link: https://www.canalhacker.com
 
 
-# ESPAÑOL
-# No me hago responsable por el uso de esta herramienta.
+# ESPAÑOL: No me hago responsable por el uso de esta herramienta.
 
 Este keylogger usa la herramienta "showkey", se ejecuta en la máquina víctima y comienza a
 enviar peticiones con el comando curl hacia nuestro servidor.
@@ -23,8 +22,7 @@ Para modificar el estado del keylogger, añadir al archivo "state" uno de los si
 El archivo "delkeylog.sh" añadirá el estado de "kill" al archivo "state", despues de 30 segundos eliminará el
 directorio "server_$port".
 
-# ENGLISH
-# I'm not responsible for the use of this tool
+# ENGLISH: I'm not responsible for the use of this tool
 
 This keylogger uses the "showkey" tool, runs on the victim machine and starts sending requests with the curl
 command to our server.
@@ -40,8 +38,7 @@ To modify the status of the keylogger, add one of the following contents "active
 The "delkeylog.sh" file will add the status of "kill" to the "state" file, after 30 seconds it will delete
 the "server_$port" directory.
 
-# 中文
-# 我不负责什么用这个工具
+# 中文: 我不负责什么用这个工具
 
 键盘记录器用《showkey》的工具，在电脑的受害者会运行然后送我数据通过命令《curl》 到我们的服务器。
 在网址，我添加了提供信息从键盘记录器base64编码，output.sh文件会解码信息从要求。
